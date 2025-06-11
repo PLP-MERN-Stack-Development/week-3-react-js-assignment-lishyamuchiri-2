@@ -11,10 +11,10 @@ function Home() {
         <Button variant="danger">Contact Us</Button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <Card title="Manage Tasks" image="https://images.unsplash.com/photo-1516321310762-479e93c61e0a">
+        <Card title="Manage Tasks" image="https://images.unsplash.com/photo-1743385779347-1549dabf1320?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b3JnYW5pemUlMjB0YXNrcyUyMGltYWdlfGVufDB8fDB8fHww">
           Organize your tasks with ease and style!
         </Card>
-        <Card title="Modern Design">
+        <Card title="Modern Design" image="https://images.unsplash.com/photo-1542395765-761de4ee9696?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEJ1aWx0JTIwd2l0aCUyMFJlYWN0JTJDJTIwSlNYJTJDJTIwYW5kJTIwVGFpbHdpbmQlMjBDU1MlMjBmb3IlMjBhJTIwdmlicmFudCUyMGV4cGVyaWVuY2UufGVufDB8fDB8fHww">
           Built with React, JSX, and Tailwind CSS for a vibrant experience.
         </Card>
         <Card title="Stay Productive" image="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
