@@ -40,7 +40,7 @@ function TaskManager() {
   })
 
   useEffect(() => {
-    document.documentElement.classList.toggle('dark', theme === 'dark')
+    // Theme is managed by ThemeContext, no need to toggle here
   }, [theme])
 
   const chartData = {
@@ -70,7 +70,7 @@ function TaskManager() {
     <main className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl font-bold text-center mb-6 text-gray-900 dark:text-gray-100">Task Manager</h1>
       <div className="flex justify-center mb-6">
-        <Button onClick={toggleTheme}>
+        <Button onClick={toggleTheme} variant="secondary">
           Switch to {theme === 'light' ? 'Dark' : 'Light'} Mode
         </Button>
       </div>
@@ -81,7 +81,7 @@ function TaskManager() {
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
             placeholder="Add a new task"
-            className="flex-grow p-2 rounded-l-full border-none focus:outline-none text-gray-800 dark:text-gray-200 dark:bg-gray-700"
+            className="flex-grow p-2 rounded-l-full border-none focus:outline-none text-gray-900 dark:text-gray-100 dark:bg-gray-700"
           />
           <Button onClick={addTask} variant="primary">
             Add

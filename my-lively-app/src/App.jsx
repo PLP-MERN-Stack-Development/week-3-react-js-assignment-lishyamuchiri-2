@@ -1,18 +1,14 @@
-import { useState } from 'react';
-import './App.css';
-
 import { Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from './context/ThemeContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import TaskManager from './pages/TaskManager.jsx'
+import TaskManager from './pages/TaskManager'
 import Home from './pages/Home'
 import About from './pages/About'
 import Posts from './pages/Posts'
-import Login from './pages/login.jsx'
+import Login from './pages/Login'
 import Register from './pages/Register'
 import './index.css'
-
 
 function App() {
   return (

@@ -2,10 +2,11 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",  // Tells Tailwind to look inside src/
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
   },
+  darkMode: 'class', // Enable class-based dark mode
   plugins: [],
 }
