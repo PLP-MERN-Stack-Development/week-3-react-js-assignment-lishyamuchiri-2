@@ -8,8 +8,9 @@ npm (comes with Node.js)
 
 Installation
 
-Clone the repository:git clone <your-repo-url>
-cd week-3-react-js
+Clone the repository:git clone 
+
+
 
 
 Install dependencies:npm install
@@ -67,24 +68,23 @@ week-3-react-js/
 ├── postcss.config.js
 ├── index.html
 
-Screenshots
-Home Page
+## 📸 Screenshots
 
-c:\Users\lishya\Pictures\Screenshots\Screenshot 2025-06-11 083446.png
+### 🏠 Home Page  
+![Home Page](./Screenshots/Screenshot%202025-06-11%20083446.png)
 
-Task Manager
+### 📋 Task Manager  
+![Task Manager](./Screenshots/Screenshot%202025-06-12%20080546.png)
 
-c:\Users\lishya\Pictures\Screenshots\Screenshot 2025-06-12 080546.png
+### 📝 Posts Page  
+![Posts Page](./Screenshots/Screenshot%202025-06-12%20081800.png)
 
-Posts Page
+### 🔐 Login Page  
+![Login Page](./Screenshots/Screenshot%202025-06-12%20081821.png)
 
-c:\Users\lishya\Pictures\Screenshots\Screenshot 2025-06-12 081800.png
+### 🆕 Register Page  
+![Register Page](./Screenshots/Screenshot%202025-06-12%20081842.png)
 
-Login Page
-
-c:\Users\lishya\Pictures\Screenshots\Screenshot 2025-06-12 081821.png
-
-Register Page
 
 
 Deployment
@@ -94,8 +94,6 @@ Install Vercel CLI globally:npm i -g vercel
 
 Deploy the project:vercel
 
-Follow the prompts to deploy and get the deployed URL.
-Update this README with the deployed URL below.
 
 Deployed URL
 PLP Task Manager
